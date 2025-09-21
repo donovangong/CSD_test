@@ -26,7 +26,7 @@ namespace BMICalculator
         [Range(0, 13, ErrorMessage = "Pounds must be between 0 and 13")]                              // 14 lbs in a stone
         public int WeightPounds { get; set; }
 
-        [Display(Name = "Height - Feet")]
+        [Display(Name = "Height - Feets")]
         [Range(4, 7, ErrorMessage = "Feet must be between 4 and 7")]                               // max 7 feet
         public int HeightFeet { get; set; }
 
